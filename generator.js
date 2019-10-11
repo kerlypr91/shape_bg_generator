@@ -201,7 +201,9 @@ const verticalPositions = {
   // verPos22: -250,
   // verPos23: -300,
   // verPos24: -300,
-  // verPos25: -300
+  // verPos25: -300,
+  verPos26: 50,
+  verPos27: 100,
 }
 
 function pickAttributeRandomly (object) { // returns ramdom key
