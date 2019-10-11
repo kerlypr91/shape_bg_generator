@@ -8,6 +8,22 @@ const ShapesData = {
     shape2: {
       source: 'images/Rectangle-Light.png',
       type: 'rectangle'
+    },
+    shape3: {
+      source: 'images/Circle-Light.png',
+      type: 'circle'
+    },
+    shape4: {
+      source: 'images/Rectangle-Light.png',
+      type: 'rectangle'
+    },
+    shape5: {
+      source: 'images/Circle-Light.png',
+      type: 'circle'
+    },
+    shape6: {
+      source: 'images/Rectangle-Light.png',
+      type: 'rectangle'
     }
   },
   dark: {
@@ -16,6 +32,22 @@ const ShapesData = {
       type: 'circle'
     },
     shape2: {
+      source: 'images/Rectangle-Dark.png',
+      type: 'rectangle'
+    },
+    shape3: {
+      source: 'images/Circle-Dark.png',
+      type: 'circle'
+    },
+    shape4: {
+      source: 'images/Rectangle-Dark.png',
+      type: 'rectangle'
+    },
+    shape5: {
+      source: 'images/Circle-Dark.png',
+      type: 'circle'
+    },
+    shape6: {
       source: 'images/Rectangle-Dark.png',
       type: 'rectangle'
     }
@@ -184,10 +216,10 @@ const verticalPositions = {
   // verPos5: 0,
   // verPos6: 0,
   verPos7: -50,
-  // verPos8: -50,
+  verPos8: -50,
   // verPos9: -50,
   verPos10: -100,
-  // verPos11: -100,
+  verPos11: -100,
   // verPos12: -100,
   // verPos13: -150,
   // verPos14: -150,
@@ -204,6 +236,7 @@ const verticalPositions = {
   // verPos25: -300,
   verPos26: 50,
   verPos27: 100,
+  verPos28: 150
 }
 
 function pickAttributeRandomly (object) { // returns ramdom key
