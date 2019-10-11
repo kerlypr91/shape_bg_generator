@@ -1,0 +1,25 @@
+button {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#page_container {
+  display: flex;
+  flex-direction: row;
+}
+
+#button_container {
+  margin: 100px;
+}
+
+#bg_generator {
+  width: 500px;
+  height: 2000px;
+  /* background-color: lightblue; */
+  border: 1px solid blue;
+  overflow-x: hidden;
+  position: relative;
+  /* display: flex;
+  flex-direction: column; */
+}
